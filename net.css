@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.box {
+  background-color: rgb(5, 5, 5);
+  height: 90vh;
+  position: relative;
+  top: -47px;
+  opacity: 0.73;
+  width: 100%;
+  background-position: center;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(10, 10, 10);
+}
+
+.navbar {
+  display: flex;
+  width: 75vw;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 4%;
+  z-index: 5;
+}
+
+.main {
+  background-image: url(./assets/images/netflixteaser.png);
+  height: 84vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 7px solid grey;
+}
+
+.navbar .img {
+  z-index: 12;
+  position: relative;
+  top:-8px
+}
+
+.log-btn {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+.content {
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.head {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+  color: white;
+  width: 35rem;
+  text-align: center;
+}
+
+.head2 {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+  color: white;
+  width: 38rem;
+  text-align: left;
+  line-height: 3.5rem;
+}
+
+.one {
+  padding: 0px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.content .child-1 {
+  font-size: 22px;
+  display: block;
+  font-weight: 400;
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-style: normal;
+  position: relative;
+  color: white;
+  margin: auto;
+  width: max-content;
+}
+
+.child-2 {
+  font-size: 18px;
+  margin-top: 5px;
+  display: block;
+  font-weight: 400;
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-style: normal;
+  position: relative;
+  width: 38rem;
+}
+
+.start {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 3px;
+  width: max-content;
+}
+.but {
+  background-color: rgba(25, 25, 25, 0.7);
+  color: white;
+  border: 1px solid rgba(255, 254, 254, 0.5);
+  margin-right: 4px;
+  z-index: 10;
+  position: relative;
+  font-size: 13px;
+  font-weight: bold;
+  width: 20rem;
+  height: 3rem;
+  padding-left: 15px;
+  border-radius: 4px;
+}
+
+.sign-in {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 3px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  z-index: 12;
+}
+
+.red {
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  width: 90px;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.btn-eng {
+  background-color: transparent;
+  color: white;
+  width: 6rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.first-box {
+  display: flex;
+  margin: auto;
+  width: 80vw;
+  height: 70vh;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.cont-1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-1 {
+  position: relative;
+}
+
+.tv {
+  width: 35vw;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 15%;
+  z-index: 10;
+}
+
+.ved {
+  position: relative;
+  width: 455px;
+  top: 25%;
+  left: 30%;
+}
+
+.sep {
+  height: 8px;
+  background-color: grey;
+  opacity: 0.3;
+}
+
+.second-box {
+  display: flex;
+  margin: auto;
+  width: 80vw;
+  height: 80vh;
+  gap: 40px;
+}
+
+.cont-2 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.third-box {
+  display: flex;
+  margin: auto;
+  width: 80vw;
+  height: 80vh;
+  gap: 50px;
+}
+
+.ved2 {
+  position: relative;
+  width: 360px;
+  top: 17%;
+  left: 30%;
+}
+
+.img-2 {
+  position: relative;
+  width: 50vw;
+}
+
+.head4 {
+  font-size: 48px;
+  display: block;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  position: relative;
+  width: 35rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.child-4 {
+  font-size: 22px;
+  display: block;
+  font-weight: 400;
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-style: normal;
+  position: relative;
+  color: white;
+  width: max-content;
+}
+
+.img-3 {
+  position: relative;
+  width: 50vw;
+  margin-right: 2rem;
+  margin-left: -3rem;
+}
+
+.f-head {
+  color: white;
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+  font-size: 48px;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+  text-transform: capitalize;
+  padding: 3rem 0rem 0.5rem 0rem;
+  margin-bottom: 0.7rem;
+}
+
+.q {
+  background-color: #2d2d2d;
+  transition: all 1s ease-out;
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.7rem;
+  margin: auto;
+  margin-top: 0.5rem;
+  color: white;
+  padding-right: 30px;
+  padding-left: 2rem;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 14px;
+}
+.q:hover {
+  background-color: #414141;
+}
+
+.des {
+  font-size: 22px;
+  display: block;
+  font-weight: 400;
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-style: normal;
+  position: relative;
+  color: white;
+  margin: auto;
+  width: max-content;
+  margin-top: 3rem;
+}
+
+.start2 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 3px;
+  width: max-content;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 5rem;
+}
+
+.phone {
+  color: white;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  width: max-content;
+}
+
+.four-box {
+  margin: auto;
+  width: 75vw;
+  margin-top: 5rem;
+  font-size: 13px;
+  height: 40vh;
+}
+.fa-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  margin-top: 8px;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.7);
+  display: block;
+}
+
+.onegrid {
+  box-sizing: border-box;
+  line-height: 2rem;
+  font-weight: 400;
+  padding-left: 2px;
+}
+
+.rights{
+  color: white;
+  width: max-content;
+  margin: auto;
+  font-size: 16px;
+}
